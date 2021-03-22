@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/recepcion"
+    android:background="@drawable/fondoposto"
     tools:context=".MainActivity">
 
 
@@ -14,13 +14,10 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:src="@drawable/postobon"
-
         app:layout_constraintHeight_percent="0.3"
         app:layout_constraintWidth_percent="0.8"
-
-        app:layout_constraintVertical_bias="0.15"
+        app:layout_constraintVertical_bias="0"
         app:layout_constraintHorizontal_bias="0.5"
-
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -39,6 +36,17 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintTop_toBottomOf="@id/horas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
     
     <Button
         android:id="@+id/botonCalcular"
@@ -47,13 +55,10 @@
         android:backgroundTint="@color/gray"
         android:text="@string/calcular"
         app:layout_constraintVertical_bias="0.4"
-        app:layout_constraintTop_toBottomOf="@id/horas"
+        app:layout_constraintTop_toBottomOf="@id/resultado"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-
-
-        />
+        app:layout_constraintEnd_toEndOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
