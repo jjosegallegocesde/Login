@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -13,8 +14,10 @@ public class MainActivity extends AppCompatActivity {
     //ATRIBUTOS
     EditText cajaHorasTrabajadas;
     Button botonCalcularSalario;
-    TextView cajaResultado;
+    TextView cajaResultado,nombreEmpleado,cedulaEmpleado,descripcionEmpleado,ocupacionEmpelado;
+    ImageView fotoEmpleado;
 
+    Trabajador empleado;
 
 
 
@@ -26,6 +29,21 @@ public class MainActivity extends AppCompatActivity {
         cajaHorasTrabajadas=findViewById(R.id.horas);//edittext
         botonCalcularSalario=findViewById(R.id.botonCalcular);//boton
         cajaResultado=findViewById(R.id.resultado);//textview
+
+        nombreEmpleado=findViewById(R.id.nombreEmpleadoMain);
+        cedulaEmpleado=findViewById(R.id.cedulaEmpleadoMain);
+        descripcionEmpleado=findViewById(R.id.descripcionEmpeladoMain);
+        ocupacionEmpelado=findViewById(R.id.ocupacionEmpleadoMain);
+        fotoEmpleado=findViewById(R.id.fotoEmpleadoMain);
+
+        empleado=(Trabajador) getIntent().getSerializableExtra("trabajador");
+
+        nombreEmpleado.setText(empleado.getNombreEmpleado());
+        cedulaEmpleado.setText(empleado.getCedulaEmpleado());
+        descripcionEmpleado.setText(empleado.getDescripcionEmpleado());
+        ocupacionEmpelado.setText(empleado.getOcupacionEmpleado());
+        fotoEmpleado.setImageResource(empleado.getFotoEmpelado());
+
 
         botonCalcularSalario.setOnClickListener(new View.OnClickListener() {
             @Override

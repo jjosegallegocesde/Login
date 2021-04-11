@@ -3,5 +3,10 @@
     <string name="ayudaHoras">Digite el numero de horas </string>
     <string name="calcular">Calcular Salario </string>
 
+    <string name="descripcion1">Sandra Perez es una empleada con más de 8 años de antiguedad en la empresa que se caracteriza por su compañerismo </string>
+    <string name="descripcion2">Raúl Roduiguez es un operario nuevo que demuestra muestro interes en aprender y mejorar dia a dia </string>
+    <string name="descripcion3">Martha Nielsen es una viajera del tiempo, conocida como EVA, debe llegar antes de ADAN pilas!! </string>
+    <string name="descripcion4">Bayron es un excelente profesional que juega para el equipo de fútbol de la compañia, es el goleador del torneo </string>
+
 
 </resources>
