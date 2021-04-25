@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LoginSabado</string>
+    <string name="ayudaHoras">Enter number of hours </string>
+    <string name="calcular">Calculate salary </string>
+
+    <string name="descripcion1">Sandra Perez is an employee with more than 8 years of experience in the company who is characterized by her companionship </string>
+    <string name="descripcion2">Raúl Rodriguez is a new operator who shows interest in learning and improving day by day </string>
+    <string name="descripcion3">Martha Nielsen is a time traveler, known as EVA, you must arrive before ADAN stacks!! </string>
+    <string name="descripcion4">Bayron is an excellent professional who plays for the companys soccer team, he is the top scorer of the tournament </string>
+
+    <string name="opcion1">About us</string>
+    <string name="opcion2">English</string>
+    <string name="opcion3">Spanish</string>
+
+
+    <string name="perfilnombre">Juan José Gallego Mesa</string>
+    <string name="perfil">
+        My name is Juan José Gallego Mesa, I am an electronic engineer from the University of Antioquia and a Telecommunications engineer from the Metropolitan Technological Institute, I have a specialization in formulation and evaluation of projects from this same institution and different seminars and diplomas in pedagogy.
+        I am passionate about software development and teaching from a very young age, having the opportunity to apply my knowledge in institutions such as: Seguros Sura, the national learning service-SENA, the Medellín metro and the Medellín secretariat of education.
+    </string>
+
+    <string name="vermas">See+</string>
+
+
+
+</resources>

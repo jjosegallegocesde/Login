@@ -8,5 +8,20 @@
     <string name="descripcion3">Martha Nielsen es una viajera del tiempo, conocida como EVA, debe llegar antes de ADAN pilas!! </string>
     <string name="descripcion4">Bayron es un excelente profesional que juega para el equipo de fútbol de la compañia, es el goleador del torneo </string>
 
+    <string name="opcion1">Acerca de</string>
+    <string name="opcion2">Inglés</string>
+    <string name="opcion3">Español</string>
+
+
+    <string name="perfilnombre">Juan José Gallego Mesa</string>
+    <string name="perfil">
+        Mi nombre es Juan José Gallego Mesa, soy ingeniero electrónico de la Universidad de Antioquia e ingeniero de Telecomunicaciones del Instituto tecnológico metropolitano, cuento con una especialización en formulación y evaluación de proyectos de esta misma institución y distintos seminarios y diplomados en pedagogía.
+        Me apasionan el desarrollo de software y la docencia desde muy joven, teniendo la oportunidad de aplicar mis conocimientos en instituciones como: Seguros Sura, el servicio nacional de aprendizaje-SENA, el metro de Medellín y la secretaría de educación de Medellín.
+    </string>
+
+    <string name="vermas">ver más+</string>
+
+
+
 
 </resources>

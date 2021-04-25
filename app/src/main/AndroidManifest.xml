@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginSabado">
+        <activity android:name=".Perfil"></activity>
         <activity android:name=".Home"></activity>
         <activity android:name=".Splash">
             <intent-filter>
